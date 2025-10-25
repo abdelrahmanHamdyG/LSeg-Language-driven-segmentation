@@ -3,7 +3,7 @@
 A re-implementation of **LSeg (Language-Driven Semantic Segmentation, ICLR 2022)** adapted to the food domain using the **FoodSeg103** dataset.
 
 [![Paper](https://img.shields.io/badge/Paper-ICLR%202022-blue)](https://arxiv.org/abs/2201.03546)
-[![Dataset](https://img.shields.io/badge/Dataset-FoodSeg103-green)](https://github.com/LANCETLab/FoodSeg103)
+
 
 ---
 
@@ -122,22 +122,6 @@ pip install -r requirements.txt
 python -m app
 ```
 
-The Gradio interface allows you to:
-- Upload food images
-- **Write any text description** (not limited to 103 training classes)
-- Get pixel-level segmentation masks
-- Test with completely custom labels
-
----
-
-## Key Contributions
-
-1. **Paper Re-implementation:** Successfully reproduced LSeg architecture and training
-2. **Food Domain Adaptation:** Specialized LSeg for fine-grained food categories
-3. **Resource-Efficient Training:** Achieved competitive results on 7K images vs. large-scale datasets
-4. **Zero-Shot Validation:** Demonstrated language generalization through synonym testing
-5. **Interactive Demo:** Built Gradio interface for practical experimentation
-
 ---
 
 ## Technical Stack
@@ -170,4 +154,4 @@ The Gradio interface allows you to:
 
 ---
 
-**⭐ If this project is useful, please consider starring the repository!**
+
