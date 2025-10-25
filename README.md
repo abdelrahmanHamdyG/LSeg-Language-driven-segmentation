@@ -112,7 +112,7 @@ pip install -r requirements.txt
 
 ### Download Model Weights
 
-1. Download weights from: **[Google Drive Link]** *(link will be added)*
+1. Download weights from: [Google Drive Link](https://drive.google.com/file/d/1xG69no8wI6Zl3qxaOWewkfkzQs0IMdZz/view?usp=sharing)
 2. Create a `checkpoint` folder in project root
 3. Place the weights file inside `checkpoint/`
 
